@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-02T11:14:50.224Z",
+        "line": 3,
+        "name": "Login Successlly with user credentials",
+        "description": "",
+        "id": "to-validate-login;login-successlly-with-user-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10184029500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The OurShopee page should be launched",
+            "match": {
+              "location": "StepDefinition.the_OurShopee_page_should_be_launched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1853879600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enters username and password",
+            "match": {
+              "location": "StepDefinition.enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1831646700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks the signUp button",
+            "match": {
+              "location": "StepDefinition.user_clicks_the_signUp_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10518900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The page should be navigate to homepage",
+            "match": {
+              "location": "StepDefinition.the_page_should_be_navigate_to_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate login",
+    "description": "",
+    "id": "to-validate-login",
+    "keyword": "Feature",
+    "uri": "file:Features/login.feature",
+    "tags": []
+  }
+]
