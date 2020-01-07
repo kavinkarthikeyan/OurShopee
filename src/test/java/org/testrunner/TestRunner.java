@@ -2,12 +2,13 @@ package org.testrunner;
 
 import org.junit.runner.RunWith;
 
-import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "C:\\Users\\Kavin\\My Workspace\\Cummumber\\src\\test\\resources",glue="org.stepdefinition",plugin= {"html:target","json:target//i.json"})
+@CucumberOptions(features = "src\\test\\resources\\Features\\SearchProduct.feature",glue= {"src\\test\\java\\org\\stepdefinition\\SearchProductStep.java"},monochrome=true,dryRun=true)
 
 public class TestRunner {
-
+	
 }
