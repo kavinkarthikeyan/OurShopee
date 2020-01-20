@@ -20,7 +20,9 @@ public class LoginStep {
 				"C:\\Users\\Kavin\\My Workspace\\Cummumber\\Driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.ourshopee.com/");
-
+System.out.println("1234567");
+System.out.println("1234567");
+System.out.println("1234567");
 	}
 
 	@When("enters username and password")
